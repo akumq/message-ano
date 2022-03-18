@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Spectral', serif;
+}
+
+body {
+    background-color: #706fd3;
+    display: flex;
+    height: 100vh;
+    width: 100wh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    flex-direction: column;
+    background-color: white;
+    width: 50vw;
+    max-width: 370px;
+    height: 60vh;
+    max-height: 500px;
+    border-radius: 10%;
+    display: flex;
+    border: solid 2px black;
+    -webkit-box-shadow: 11px 15px 0px -1px #000000;
+    box-shadow: 11px 15px 0px -1px #000000;
+}
+
+.top {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 10%;
+    border-bottom: solid 0.5px black;
+}
+
+span {
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    border: solid 1px black;
+    width: 12px;
+    height: 12px;
+    margin-left: 15px;
+    right: 17px;
+    top: 15px;
+}
+
+.red {
+    background-color: #b33939;
+}
+
+.green {
+    background-color: #227093;
+}
+
+input[type="text"] {
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 5px 5px 0px -1px #000000;
+    box-shadow: 5px 5px 0px -1px #000000;
+}
+
+input[type="button"] {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 5px 5px 0px -1px #000000;
+    box-shadow: 5px 5px 0px -1px #000000;
+}
+
+input[type="color"] {
+    align-self: center;
+    width: 10vh;
+    height: 10vh;
+    margin-top: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 5px 5px 0px -1px #000000;
+    box-shadow: 5px 5px 0px -1px #000000;
+}
+
+p {
+    font-size: 2em;
+    text-align: center;
+}
